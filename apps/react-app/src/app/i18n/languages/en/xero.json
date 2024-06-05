@@ -1,0 +1,16 @@
+{
+  "xeroError": "Error with Xero",
+  "errorCode": "",
+  "invoiceNumber": "Invoice Number",
+  "invoiceStatus": "Invoice Status",
+  "amountPaid": "Amount Paid",
+  "amountDue": "Amount Due",
+  "total": "Total",
+  "totalTax": "Total Tax",
+  "xeroTransactions": "Xero Transactions",
+  "contactName": "Contact Name",
+  "emailAddress": "Email Address",
+  "contactNumber": "Contact Number",
+  "contactStatus": "Contact Status",
+  "xeroContacts": "Xero Contacts"
+}

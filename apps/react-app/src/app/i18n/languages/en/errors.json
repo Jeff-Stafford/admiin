@@ -1,0 +1,10 @@
+{
+  "NO_ZAI_USER": "No Zai user. Contact Admiin",
+  "UNAUTHORISED_ENTITY": "Not authorised for entity",
+  "UNAUTHORISED_PAYTO": "Not authorised to pay to",
+  "BILLS_NOT_PAYABLE": "One or more bills are not payable",
+  "ERROR_GETTING_BILLS":  "Error retrieving bills",
+  "INVALID_PAYMENT_METHOD": "Invalid payment method for entity",
+  "TASK_TO_FROM_SAME": "Task to and from cannot be the same",
+  "ERROR_CREATE_UPDATE_ZAI_ITEM": "Error creating payment item"
+}

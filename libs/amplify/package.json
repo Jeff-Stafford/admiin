@@ -1,0 +1,23 @@
+{
+  "name": "@admiin-com/ds-amplify",
+  "description": "Apptractive Amplify",
+  "license": "UNLICENSED",
+  "author": "admiin <hello@admiin.com>",
+  "homepage": "https://github.com/apptractive/project-template#readme",
+  "version": "0.0.1-alpha.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "@admiin-com/ds-common": "*",
+    "aws-amplify": "*"
+  },
+  "devDependencies": {
+    "aws-amplify": "*"
+  }
+}

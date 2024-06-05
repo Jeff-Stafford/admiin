@@ -1,0 +1,53 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@admiin-com/ds-amplify": [
+        "libs/amplify/src/index.ts"
+      ],
+      "@admiin-com/ds-amplify-web": [
+        "libs/amplify-web/src/index.ts"
+      ],
+      "@admiin-com/ds-common": [
+        "libs/common/src/index.ts"
+      ],
+      "@admiin-com/ds-design-token": [
+        "libs/design-token/src/index.ts"
+      ],
+      "@admiin-com/ds-graphql": [
+        "libs/graphql/src/index.ts"
+      ],
+      "@admiin-com/ds-hooks": [
+        "libs/hooks/src/index.ts"
+      ],
+      "@admiin-com/ds-web": [
+        "libs/design-system-web/src/index.ts"
+      ],
+      "@admiin-com/ds-web-testing-utils": [
+        "libs/web-testing-utils/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp",
+    "dist"
+  ]
+}

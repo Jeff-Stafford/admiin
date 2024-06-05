@@ -1,0 +1,17 @@
+{
+  "name": "@admiin-com/ds-graphql",
+  "description": "Apptractive Graphql",
+  "license": "LICENSE.md",
+  "version": "0.0.1-alpha.1",
+  "author": "admiin <hello@admiin.com>",
+  "homepage": "https://github.com/apptractive/project-template#readme",
+  "type": "commonjs",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.js"
+    }
+  }
+}

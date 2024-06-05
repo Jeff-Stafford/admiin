@@ -1,0 +1,12 @@
+{
+    "dashboard": "Dashboard",
+    "newEntity": "New Entity",
+    "entity": "Entity",
+    "inbox": "Inbox",
+    "outbox": "Outbox",
+    "amount": "Amount",
+    "total": "Total",
+    "sent": "Sent",
+    "paidSignedDocuments.one": "Document that must be",
+    "paidSignedDocuments.other": "Documents that must be"
+}

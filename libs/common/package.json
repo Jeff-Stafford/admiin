@@ -1,0 +1,18 @@
+{
+  "name": "@admiin-com/ds-common",
+  "description": "Apptractive Common",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "author": "admiin <hello@admiin.com>",
+  "homepage": "https://github.com/apptractive/project-template#readme",
+  "version": "0.0.1-alpha.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "gitHead": "78259d76a1a85389b567d57833b0b7fe73655cab"
+}

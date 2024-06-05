@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Template</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Permissions-Policy"
+      content="accelerometer=(self https://hosted-fields.assemblypay.com https://mpsnare.iesnare.com)"
+    />
+    <meta http-equiv="refresh" content="1800" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"
+      rel="stylesheet"
+    />
+    <!-- To enable dragdrop on mobile view -->
+    <!-- <script id="DragDropTouch" src="https://bernardo-castilho.github.io/DragDropTouch/DragDropTouch.js"></script> -->
+    <!-- <script id="DragDropTouch" src="DragDropTouch.js"></script> -->
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self' *.frankiefinancial.io;
+    style-src 'self' fonts.googleapis.com;
+    font-src 'self' fonts.gstatic.com;
+    script-src 'self' maps.googleapis.com;
+    report-uri *.ingest.sentry.io *.clarity.ms;
+    img-src 'self' assets.frankiefinancial.io sync.onfido.com data:;
+    connect-src blob: *.onfido.com wss://*.onfido.com;
+  " /> -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://hosted-fields.assemblypay.com/assembly.js"></script>
+    <script src="https://assets.frankiefinancial.io/onboarding/v4/ff-onboarding-widget.umd.min.js"></script>
+    <script src="https://assets.frankiefinancial.io/one-sdk/v1.2-beta/oneSdk.umd.js"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

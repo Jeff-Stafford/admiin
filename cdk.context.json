@@ -1,0 +1,22 @@
+{
+  "ssm:account=531661040776:parameterName=dependencyLambdaLayer:region=us-east-1": "arn:aws:lambda:us-east-1:531661040776:layer:DependencyLayerE4A0C251:38",
+  "ssm:account=035308050347:parameterName=dependencyLambdaLayer:region=us-east-1": "arn:aws:lambda:us-east-1:035308050347:layer:DependencyLayerE4A0C251:1",
+  "availability-zones:account=035308050347:region=us-east-1": [
+    "us-east-1a",
+    "us-east-1b",
+    "us-east-1c",
+    "us-east-1d",
+    "us-east-1e",
+    "us-east-1f"
+  ],
+  "ssm:account=035308050347:parameterName=userPoolId:region=us-east-1": "us-east-1_3Rf0icAxR",
+  "ssm:account=035308050347:parameterName=identityPoolId:region=us-east-1": "us-east-1:8f5e3f28-0896-4623-bc16-f32818c865e5",
+  "ssm:account=035308050347:parameterName=userPoolClientId:region=us-east-1": "71g3s8d04uhv04f0m7gahsfhbs",
+  "ssm:account=035308050347:parameterName=placeIndexName:region=us-east-1": "EsriPlaceIndexName",
+  "ssm:account=035308050347:parameterName=mediaBucketName:region=us-east-1": "admiin-media-dev",
+  "ssm:account=035308050347:parameterName=graphQLAPIURL:region=us-east-1": "https://2ixjxoafkbhsxa2jb5qboqvkmu.appsync-api.us-east-1.amazonaws.com/graphql",
+  "ssm:account=035308050347:parameterName=graphQLAPIKey:region=us-east-1": "da2-bmascqcp2vd6zfpdxuklxw4im4",
+  "ssm:account=035308050347:parameterName=backendRegion:region=us-east-1": "us-east-1",
+  "ssm:account=035308050347:parameterName=restApiGatewayEndpoint:region=us-east-1": "restapi-dev.admiin.com",
+  "ssm:account=035308050347:parameterName=restApiName:region=us-east-1": "ADMRESTAPI-dev"
+}

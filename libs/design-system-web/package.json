@@ -1,0 +1,54 @@
+{
+  "name": "@admiin-com/ds-web",
+  "description": "Apptractive Web",
+  "license": "UNLICENSED",
+  "author": "admiin <hello@admiin.com>",
+  "homepage": "https://github.com/apptractive/project-template#readme",
+  "version": "0.0.1-alpha.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+
+  },
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "dependencies": {
+    "@admiin-com/ds-common": "*",
+    "@emotion-icons/ionicons-outline": "*",
+    "@emotion-icons/ionicons-sharp": "*",
+    "@emotion-icons/ionicons-solid": "*",
+    "@mui/lab": "*",
+    "@mui/material": "*",
+    "@mui/x-date-pickers": "*",
+    "@mui/x-data-grid": "*",
+    "browser-image-compression": "*",
+    "deepmerge": "*",
+    "react-phone-number-input": "*"
+  },
+  "peerDependencies": {
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "luxon": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-hook-form": "*",
+    "uuid": "*",
+    "@tanstack/react-query": "*",
+    "@tanstack/react-virtual": "*",
+    "@mui/x-data-grid": "*"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "*",
+    "@types/luxon": "*",
+    "luxon": "*",
+    "react-hook-form": "*",
+    "uuid": "*",
+    "@tanstack/react-query": "*",
+    "@tanstack/react-virtual": "*"
+  },
+  "gitHead": "bb6a571fcf02b77d74d7b7599d2580e30e936f74"
+}

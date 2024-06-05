@@ -1,0 +1,24 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "libs/*"
+  ],
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": [
+        "staging",
+        "main"
+      ],
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "commitHooks": false
+    },
+    "publish": {
+      "registry": "https://npm.pkg.github.com",
+      "allowBranch": "main",
+      "directory": "{workspaceRoot}/dist/{projectRoot}"
+    }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
+}

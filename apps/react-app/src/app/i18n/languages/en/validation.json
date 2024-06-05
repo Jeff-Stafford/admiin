@@ -1,0 +1,8 @@
+{
+  "bsbRequired": "BSB is required",
+  "bsbInvalidFormat": "BSB is invalid",
+  "accountNumberTooLong": "Account number is too long",
+  "accountNumberRequired": "Account number is required",
+  "accountNumberInvalidFormat": "Account number is invalid",
+  "accountNumberTooShort": "Account number is too short"
+}

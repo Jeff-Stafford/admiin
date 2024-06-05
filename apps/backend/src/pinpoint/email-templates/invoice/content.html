@@ -1,0 +1,131 @@
+<tr>
+  <td class="email-body" width="570" cellpadding="0" cellspacing="0">
+    <table
+      class="email-body_inner"
+      align="center"
+      width="570"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+    >
+      <tr>
+        <td class="content-cell">
+          <div class="f-fallback">
+            <h1>Your Invoice for {{task.reference}}</h1>
+            <p>Dear {{user.firstName}},</p>
+            <p>
+              We hope this message finds you well. A payment of
+              <strong>{{task.totalWithCurrency}}</strong> from
+              <strong>{{task.from}}</strong> for invoice {{task.reference}} is
+              due on <strong>{{task.dueAtFormatted}}</strong>.
+            </p>
+            <table
+              class="attributes"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+            >
+              <tr>
+                <td class="attributes_content">
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                  >
+                    <tr>
+                      <td class="attributes_item">
+                        <span class="f-fallback"
+                          ><strong>Amount:</strong>
+                          {{task.totalWithCurrency}}</span
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              {{#if task.noteForOther}}
+              <tr>
+                <td class="attributes_content">
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                  >
+                    <tr>
+                      <td class="attributes_item">
+                        <span class="f-fallback"
+                          ><strong>Notes:</strong> {{task.noteForOther}}</span
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              {{/if}}
+            </table>
+            <!--            <table class="attributes" width="100%" cellpadding="0" cellspacing="0" role="presentation">-->
+            <!--              <tr>-->
+            <!--                <td class="attributes_item" style="text-align: left;">-->
+            <!--                  <span class="f-fallback"><strong>Amount:</strong></span>-->
+            <!--                </td>-->
+            <!--                <td class="attributes_item" style="text-align: right;">-->
+            <!--                  <span class="f-fallback">{{task.totalWithCurrency}}</span>-->
+            <!--                </td>-->
+            <!--              </tr>-->
+            <!--            </table>-->
+            <table
+              class="body-action"
+              align="center"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+            >
+              <tr>
+                <td align="center">
+                  <table
+                    width="100%"
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="0"
+                    role="presentation"
+                  >
+                    <tr>
+                      <td align="center">
+                        <a
+                          href="{{task.url}}"
+                          class="f-fallback button"
+                          target="_blank"
+                          >Make Payment</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <p>
+              If you have any questions or need assistance, feel free to contact
+              us.
+            </p>
+            <p>Best regards,<br />Admiin</p>
+            <table class="body-sub" role="presentation">
+              <tr>
+                <td>
+                  <p class="f-fallback sub">
+                    If you're having trouble with the button above, copy and
+                    paste the URL below into your web browser.
+                  </p>
+                  <p class="f-fallback sub">{{task.url}}</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

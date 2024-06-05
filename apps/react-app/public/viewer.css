@@ -1,0 +1,34 @@
+/* PSPDFKit Overrides */
+/*TODO: properties for instnace? */
+.PSPDFKit-Form-Creator-Toolbar,
+.PSPDFKit-Form-Creator-Popover,
+.PSPDFKit-Popover-Arrow {
+  display: none !important;
+}
+
+.PSPDFKit-Popover {
+  background: none;
+  span {
+    display: none;
+  }
+}
+
+.PSPDFKit-Annotation-Tool-Node {
+  cursor: pointer;
+  background: transparent !important;
+}
+
+.PSPDFKit-Resize-Anchor {
+  fill: #8c52ff;
+}
+
+.PSPDFKit-Annotations-Rotation-Handle {
+  display: none;
+}
+.PSPDFKit-Viewport {
+  background-color: white;
+}
+
+.PSPDFKit-Annotation-Toolbar {
+  display: none;
+}
